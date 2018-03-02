@@ -1,0 +1,313 @@
+html body {
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	background: #222 url(../img/bg-grain.png) repeat top left;
+}
+
+body {
+	color: #555;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 21px;
+}
+
+a {
+	color: #e21303;
+	text-decoration: none;
+	outline: none;
+}
+
+a:active {
+  position: relative;
+  top: 1px;
+  outline: none;
+}
+
+
+/* ----- FONT DEFINITION ----- */
+h1 {
+	color: #555;
+	font-size: 43px;
+	letter-spacing: -2px;
+	margin: 0;
+	padding: 10px 0 10px 0;
+}
+
+h2 {
+	color: #ccc;
+	font-size: 23px;
+	letter-spacing: -1px;
+	margin: 0;
+	padding: 5px 0 0 0;
+}
+
+h3 {
+	color: #ccc;
+	font-size: 30px;
+	line-height: 30px;
+	letter-spacing: -1px;
+	margin: 0;
+}
+
+h4 {
+	font-size: 30px;
+	line-height: 30px;
+	letter-spacing: -1px;
+	margin: 0;
+}
+
+h5 {
+	color: #999;
+	font-size: 25px;
+	line-height: 30px;
+	letter-spacing: -1px;
+	margin: 0;
+}
+
+.lighter {
+	color: #ccc;
+	font-size: 20px;	
+}
+
+.year {
+	color: #ccc;
+	font-size: 14px;
+}
+
+.month {
+	color: #ccc;
+	font-size: 11px;
+}
+
+/* ----- HEADER ----- */
+div#portret {
+	float: left;
+	margin: 45px 0 0 40px;
+}
+
+div#name {
+	float: left;
+	margin: 45px 0 0 70px;
+	padding: 25px 0;
+}
+
+div#name .amp {
+	color: #e5e5e5;
+	font-family: Baskerville, "Times New Roman", serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	letter-spacing: -1px;
+	padding: 10px 0 10px 0;
+	margin: 0;
+}
+
+div#social {
+	float: left;
+	margin: 45px 0 0 65px;
+}
+
+div#social ul {
+	padding: 0;
+	margin: 0;
+}
+
+div#social li {
+	float: left;
+	list-style: none;
+	padding: 0 5px 0 0;
+	margin: 0;
+}
+
+div#social li img {
+	border: none;
+}
+
+div#contact {
+	float: left;
+	font-size: 12px;
+	margin: 8px 0 0 65px;
+}
+
+div#contact ul {
+	margin: 0;
+	padding: 0;
+}
+
+div#contact li {
+	list-style: none;
+	padding: 0 5px 0 0;
+	margin: 0;
+}
+
+/* ----- CONTENT ----- */
+
+.lineclear {
+	clear: both;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.clear {
+	clear: both;
+}
+
+/* -- PERSONAL -- */
+
+div#personal {
+	clear: both;
+	padding: 20px 0 20px 0;
+	width: 800px;
+}
+
+div#personal-title {
+	float: left;
+	width: 210px;
+}
+
+
+div#personal-content {
+	float: left;
+	width: 520px;
+}
+
+/* -- SKILLS -- */
+
+div#skills {
+	clear: both;
+	padding: 20px 0 20px 0;
+	width: 800px;
+}
+
+div#skills-title {
+	float: left;
+	width: 210px;
+}
+
+
+div#skills-content {
+	float: left;
+	width: 520px;
+}
+
+div#skills-content ul {
+	list-style:none;
+	margin:0 40px 0 0;
+	padding: 0;
+	float:left;
+}
+
+div#skills-content ul li img {
+	margin: 0 0 -2px 0;
+	padding: 0 3px 0 0;
+}
+
+/* -- EXPERIENCE -- */
+div#experience {
+	clear: both;
+	padding: 20px 0 20px 0;
+	width: 800px;
+}
+
+div#experience-title {
+	float: left;
+	width: 210px;
+}
+
+div#experience-content {
+	float: left;
+	width: 520px;
+}
+
+div#experience-date {
+	float: left;
+	text-align: right;
+	width:115px;
+}
+
+div#experience-date ul {
+	list-style: none;
+	margin: 11px 0 39px 0;
+	padding: 0;
+}
+
+div#experience-company {
+	float: left;
+	margin: 0 0 0 30px;
+}
+
+div#experience-company ul {
+	list-style: none;
+	margin: 0 0 25px 0;
+	padding: 0;
+}
+
+
+/* -- EDUCATION -- */
+div#education {
+	clear: both;
+	padding: 20px 0 20px 0;
+	width: 800px;	
+}
+
+div#education-title {
+	float: left;
+	width: 210px;
+}
+
+div#education-content {
+	float: left;
+	width: 520px;
+}
+
+div#education-date {
+	float: left;
+	text-align: right;
+	width:115px;
+}
+
+div#education-date ul {
+	list-style: none;
+	margin: 11px 0 34px 0;
+	padding: 0;
+}
+
+div#education-company {
+	float: left;
+	margin: 0 0 0 30px;
+}
+
+div#education-company ul {
+	list-style: none;
+	margin: 0 0 25px 0;
+	padding: 0;
+}
+
+
+
+/* ----- SITE ELEMENTS ----- */
+div#wrapper {
+	margin: 0 auto;
+	width: 840px;
+}
+
+div#header {
+	background: url(../img/headerbg.gif) repeat-x top left;
+	height: 200px;
+}
+
+div#content {
+	background: #FFF;
+	padding: 0 20px 0 20px;
+}
+
+div#footer {
+	background: #f8f8f8;
+	border-top: 1px solid #e6e6e6;
+	height: 30px;
+	padding: 0 20px 0 20px;
+}

@@ -1,0 +1,96 @@
+/* ----- TOOLTIP ----- */
+#tooltip {
+	position:absolute;
+	z-index:9999;
+	color:#ccc;
+	font-size:11px;
+	width:70px;
+	text-decoration: none;
+}
+
+#tooltip a {
+	text-decoration: none;
+}
+
+#tooltip .tipHeader {
+	height:8px;
+}
+
+/* IE hack */
+/* *html #tooltip .tipHeader {margin-bottom:-6px;} */
+
+#tooltip .tipBody {
+	background-color:#222;
+	padding:5px 0 5px 0;
+	text-align: center;
+	text-decoration: none;
+}
+
+#tooltip .tipFooter {
+	height:8px;
+}
+
+
+/* ----- TOOLTIP 02 ----- */
+#tooltip02 {
+	position:absolute;
+	z-index:9999;
+	color:#ccc;
+	font-size:11px;
+	width:150px;
+	text-decoration: none;
+}
+
+#tooltip02 a {
+	text-decoration: none;
+}
+
+#tooltip02 .tipHeader {
+	height:8px;
+}
+
+/* IE hack */
+/* *html #tooltip02 .tipHeader {margin-bottom:-6px;} */
+
+#tooltip02 .tipBody {
+	background-color:#222;
+	padding:5px 0 5px 0;
+	text-align: center;
+	text-decoration: none;
+}
+
+#tooltip02 .tipFooter {
+	height:8px;
+}
+
+/* ----- TOOLTIP 03 ----- */
+#tooltip03 {
+	position:absolute;
+	z-index:9999;
+	color:#ccc;
+	font-size:11px;
+	width:220px;
+	text-decoration: none;
+}
+
+#tooltip03 a {
+	text-decoration: none;
+}
+
+#tooltip03 .tipHeader {
+	height:8px;
+}
+
+/* IE hack */
+/* *html #tooltip03 .tipHeader {margin-bottom:-6px;} */
+
+#tooltip03 .tipBody {
+	background-color:#222;
+	padding:5px 0 5px 0;
+	text-align: center;
+	text-decoration: none;
+}
+
+#tooltip03 .tipFooter {
+	height:8px;
+}
